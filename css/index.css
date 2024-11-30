@@ -1,4 +1,65 @@
+#logo {
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
+#navigation {
+    float: right;
+    text-align: right;
+    line-height: 80px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.dropdown button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    float: right;
+    text-align: right;
+}
+
+.dropdown-content {
+    display: none;
+    padding: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: right;
+    text-align: right;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: transparent;
+}
+
 #page-title {
+    clear: both;
     color: transparent;
     position: relative;
     text-align: center;
@@ -6,36 +67,36 @@
     font-size: 18vw;
     font-weight: bold;
     letter-spacing: 2px;
-    line-height: 1;
     text-transform: uppercase;
     -webkit-background-clip: text;
     background-clip: text;
     background-image: url("https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1080x624/dam/pnr/2024/Products/992-II/0840_nevada_coupe_u-crane_AKOS0607_edit_V03-sky.jpg/jcr:content/0840_nevada_coupe_u-crane_AKOS0607_edit_V03-sky.jpg");
     background-position: center;
-    overflow: hidden;
+    line-height: 0.7;
 }
 
-#car-type {
-    color: black;
+#owner {
+    clear: both;
     position: relative;
-    text-align: center;
+    text-align: right;
     font-family: "Times New Roman", sans-serif;
-    font-size: 6vw;
-    letter-spacing: 1px;
-    line-height: 1;
-    text-transform: uppercase;
-    overflow: hidden;
+    font-size: 2vw;
 }
 
-#navigation {
-    border: 2px solid grey;
-    border-collapse: collapse;
-    position: relative;
-    height: 40px;
+.card {
     width: 100%;
-    margin: 0 auto;
+    height: 100%;
+    border: 2px black solid;
+    position: relative;
     text-align: center;
-    color: grey;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
 }
 
 #title-video{
@@ -47,4 +108,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#porsche-website {
+    line-height: 60px;
 }
