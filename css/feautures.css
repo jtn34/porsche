@@ -1,0 +1,103 @@
+#logo {
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
+#navigation {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.dropdown button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    float: right;
+    text-align: right;
+}
+
+.dropdown-content {
+    display: none;
+    padding: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: right;
+    text-align: right;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: transparent;
+}
+
+#porsche-website {
+    line-height: 60px;
+}
+
+.content {
+    place-items: center;
+}
+
+.aerodynamics {
+    clear: both;
+    width: 30%;
+    height: auto;
+    text-align: left;
+}
+
+.lightweight {
+    clear: both;
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+.performance {
+    clear: both;
+    width: 30%;
+    height: auto;
+    text-align: right;
+}
+
+#page-title {
+    clear: both;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
